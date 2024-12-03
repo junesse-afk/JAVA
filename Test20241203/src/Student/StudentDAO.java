@@ -11,6 +11,10 @@ public class StudentDAO {
 		for (Student stu : student) {
 			System.out.println("번호 : " + stu.getNum());
 			System.out.println("이름 : " + stu.getName());
+			
+			System.out.println(stu.getSubject().getName());
+			System.out.println(stu.getSubject().getScore());
 		}
+		
 	}
 }

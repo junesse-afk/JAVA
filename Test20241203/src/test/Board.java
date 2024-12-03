@@ -17,7 +17,6 @@ public class Board {
 	
 	public Board () { num++; }
 	
-	
 	public Board(int num, String name, String subject, String content) {
 		Board.num=num;
 		this.name=name;

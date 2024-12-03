@@ -1,20 +1,11 @@
-package Student;
+package test;
 
 
 public class Student {
 	
 	public int num;
 	public String name;
-	private Subject subject;
 	
-	public Subject getSubject() {
-		return subject;
-	}
-
-	public void setSubject(Subject subject) {
-		this.subject = subject;
-	}
-
 	public Student() {}
 	
 	public Student(int num, String name) {

@@ -12,6 +12,8 @@ public class Test1 {
 		board.setSubject("제목2");
 		board.setContent("내용");
 		
+		System.out.println("게시판 주소 : " + board);
+		
 		BoardDAO dao = new BoardDAO();
 		dao.insertBoard(board); //Board 기억장소를 들고와야하기때문에 셋 문제
 	}

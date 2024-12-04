@@ -23,6 +23,7 @@ public class Test9 {
 			//예외발생 가능성이 높은 명령 =? 자바예외처리 구문
 			System.out.println(student.getName());
 		} catch (Exception e) {
+			//Exception은 모든 예외를 처리
 			e.printStackTrace();
 		}
 		System.out.println("프로그램 끝");

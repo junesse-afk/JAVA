@@ -31,5 +31,5 @@ public class Test6 {
 		System.out.println(point2.getX()+point2.getY()+point2.getZ());
 		System.out.println("-------------------------");
 	}
-
+		
 }

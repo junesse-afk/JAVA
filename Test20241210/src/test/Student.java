@@ -2,7 +2,7 @@ package test;
 
 import java.util.Objects;
 
-public class Student {
+public class Student implements Cloneable {
 	//멤버변수 name, num
 	//생성자 멤버변수 2개의 값을 받는 생성자
 	//toString()자동완성

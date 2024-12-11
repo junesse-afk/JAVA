@@ -13,23 +13,30 @@ public class Test9 {
 		System.out.println(str1.hashCode());
 		System.out.println(str2.hashCode());
 		System.out.println("-----------------------------------");
+		
 		Student student1 = new Student("홍길동", 1);
 		Student student2 = new Student("홍길동", 1);
 		System.out.println(student1.hashCode());
 		System.out.println(student2.hashCode());
 		System.out.println(student1.getClass().getName());
 		System.out.println("-----------------------------------");
+		
 		// hashCode() 16진수 변경
 		System.out.println(Integer.toHexString(student1.hashCode()));
 		System.out.println(Integer.toHexString(student2.hashCode()));
 		
 		//clone() 복제
-//		try {
-//			Student copystudent = (Student)student1.clone();
-//			System.out.println(copystudent.toString());
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
+		try {
+			//public class Student implements Cloneable 선언
+			
+			//Student copystudent = (Student)student1.clone();
+			
+			System.out.println(student1);
+			//System.out.println(copystudent);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
 	}
 

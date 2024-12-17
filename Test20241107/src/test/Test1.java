@@ -44,6 +44,9 @@ public class Test1 {
 		}
 		System.out.println("1 ~ 10 홀수 합 : " + oddTotal);
 		
+	
+		
+		
 	}
 
 }

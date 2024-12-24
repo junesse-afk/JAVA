@@ -16,6 +16,7 @@ public class Test5 {
 			System.out.println(arr[i]);
 		}
 		System.out.println("--------------------------------");
+		
 		for (int n : arr) {
 			System.out.println(n);
 		}
@@ -55,5 +56,4 @@ public class Test5 {
 		.filter(s -> s.equals("html"))
 		.forEach(s -> System.out.println(s + " "));
 	}
-
 }

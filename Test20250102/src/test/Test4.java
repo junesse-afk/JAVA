@@ -12,7 +12,7 @@ public class Test4 {
 		student.studentId = 456;
 		student.studentName = "이순신";
 		
-		student.subject = new Subject();
+		student.subject = new Subject(10, "하잉");
 		student.subject.subjectName = "영어";
 		student.subject.subjectScore= 100;
 		

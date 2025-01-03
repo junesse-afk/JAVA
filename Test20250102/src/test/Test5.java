@@ -11,7 +11,13 @@ public class Test5 {
 		//멤버변수 List<subject> subjectList
 		//prn() 메서드 출력
 		
-		List<Subject> subjectList = new ArrayList<Subject>();
+		Student3 student3 = new Student3();
+		student3.studentId = 1;
+		student3.studetName = "강감찬";
+		student3.subjectList = new ArrayList<Subject>();
+		student3.subjectList.add(new Subject(100, "국어"));
+		student3.subjectList.add(new Subject(90, "수학"));
+		student3.subjectList.add(new Subject(80, "영어"));
 		
 
 	}

@@ -9,6 +9,10 @@ public class Subject {
 	String subjectName;
 	int subjectScore;
 	
+	public Subject(int i, String string) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void subjectPrn() {
 		System.out.println(subjectName + " : " + subjectScore);
 	}
